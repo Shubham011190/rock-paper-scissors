@@ -20,8 +20,6 @@ function win(userChoice,compchoice){
   userScore_span.innerHTML = userScore;
   compScore_span.innerHTML = compScore;
   result_p.innerHTML = `${toWord(userChoice)}${smallUser} beats ${toWord(compchoice)}${smallComp} . You win!`;
-  document.getElementById(toWord(userChoice).toLowerCase()).classList.add('green-glow');
-  setTimeout(function(){ document.getElementById(userChoice).classList.remove('green-glow')}, 1000);
 }
 function lose(userChoice,compchoice){
   compScore++;

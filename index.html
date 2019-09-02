@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+    <h1>Rock Paper Scissors</h1>
+    <link rel="stylesheet" href="styles.css">
+    </header>
+    <div class="scoreBoard">
+      <div class="badge" id="user-label">User</div>
+      <div class="badge" id="comp-label">Comp</div>
+      <span id="userscore">0</span>:<span id =compscore>0</span>
+    </div>
+
+    <div class="result">
+      <p>Paper covers Rock. You win!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice">
+        <img src="images/rock.png" id="rock" alt="">
+      </div>
+      <div class="choice">
+        <img src="images/paper.png" id="paper" alt="">
+      </div>
+      <div class="choice">
+        <img src="images/scissors.png" id="scissors" alt="">
+      </div>
+    </div>
+
+    <p id ="action-move">Make your move.</p>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
